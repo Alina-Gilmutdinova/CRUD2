@@ -14,7 +14,7 @@ function List() {
   }, [])
 
   if (list == null) {
-    return 'Loading...'
+    return 'Loading'
   }
 
   if (!list.length) {
